@@ -1,0 +1,8 @@
+arr = [1,0,2,0,3,4,0,5]
+arr.sort(reverse=True)
+print(arr)
+zeros=0
+for i in arr:
+    if i==0:
+        zeros+=1
+print("The empty boxes are",zeros)
